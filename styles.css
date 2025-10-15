@@ -743,4 +743,22 @@ input[type=submit]:hover {
     color: white;
   }
 
-  
+  /* For tablets */
+@media (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+  .container {
+    padding: 20px;
+  }
+}
+
+/* For phones */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  .container {
+    padding: 10px;
+  }
+}
